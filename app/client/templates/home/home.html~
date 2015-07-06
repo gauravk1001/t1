@@ -1,0 +1,19 @@
+
+<body>
+	<form class="placement">
+		<input type="radio" name="position" value="top">Top<br>
+		<input type="radio" name="position" value="side">Side<br>
+		<input type="radio" name="position" value="bottom">Bottom<br>
+		<input type="submit" value="Submit Campaign">
+	</form>
+
+	<ul>
+		{{> Home}}
+	</ul>
+
+</body>
+
+
+<template name="Home">
+	<li>{{showCampaigns}}</li>
+</template>
