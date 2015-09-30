@@ -1,2 +1,2 @@
 # t1
-First try at a Meteor + Iron app.
+First try at a Meteor JS + Iron Router app.
